@@ -177,7 +177,7 @@ int main(void) {
 		mouse_move(-9, -36);
 
 		// 等待广告播放完 点击关闭
-		HAL_Delay(35 * 1000);
+		HAL_Delay(32 * 1000);
 		mouse_single_click();
 
 		// 等待下一段广告刷新
